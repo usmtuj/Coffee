@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Site</title>
     <link
@@ -15,29 +19,29 @@
     <header id="home">
       <nav>
         <div class="container">
-          <a href="#" class="logo">Coffee?</a>
+          <a href="#" data-wow-delay="0.5s" class="logo wow animate__animated animate__fadeInLeft">Coffee?</a>
           <div class="nav_list">
-            <a href="#home">Home</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#about">About Us</a>
-            <a href="#contact" class="btn">Contact Us</a>
+            <a href="#home" data-wow-delay="0.9s" class="wow animate__animated animate__fadeInLeft">Home</a>
+            <a href="#gallery" data-wow-delay="1.2s" class="wow animate__animated animate__fadeInLeft">Gallery</a>
+            <a href="#about" data-wow-delay="1.5s" class="wow animate__animated animate__fadeInLeft">About Us</a>
+            <a href="#contact" data-wow-delay="1.9s" class="btn wow animate__animated animate__fadeInLeft">Contact Us</a>
           </div>
         </div>
       </nav>
       <div class="hero">
         <div class="hero_text">
-          <h2>We Always <span>Change People!</span></h2>
-          <p>
+          <h2 data-wow-delay="0.3s" class="wow animate__animated animate__fadeInDown">We Always <span>Change People!</span></h2>
+          <p data-wow-delay="0.6s" class="wow animate__animated animate__fadeInDown">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim,
             asperiores.
           </p>
-          <a href="#">Lets Go!</a>
+          <a data-wow-delay="0.9s" class="wow animate__animated animate__fadeInDown" href="#">Lets Go!</a>
         </div>
       </div>
     </header>
     <section class="about-us" id="about">
       <div class="container">
-        <div class="about-text">
+        <div class="about-text wow animate__animated animate__fadeInLeft">
           <h2><span>About</span> Us</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
@@ -48,7 +52,7 @@
           </p>
           <a href="#" class="btn">Contacts</a>
         </div>
-        <div class="image-wrapper">
+        <div class="image-wrapper wow animate__animated animate__fadeInRight">
           <img src="./images/about-img.jpg" alt="" />
         </div>
       </div>
@@ -56,24 +60,24 @@
     <section class="our-coffees">
       <div class="container">
         <div class="our-coffees-text">
-          <h2>Our<span> Coffee's</span></h2>
-          <p>
+          <h2 class="wow animate__animated animate__fadeInLeft">Our<span> Coffee's</span></h2>
+          <p data-wow-delay="0.3s" class="wow animate__animated animate__fadeInLeft">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
             reprehenderit consectetur eius dolorem esse error cupiditate
             voluptate cumque. Repellat, voluptatem.
           </p>
-          <a href="#" class="btn">More</a>
+          <a data-wow-delay="0.6s" class="btn wow animate__animated animate__fadeInLeft" href="#">More</a>
         </div>
         <div class="coffee-cards">
-          <div class="card">
+          <div class="card wow animate__animated animate__fadeInUp">
             <h1>Coffee 1</h1>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
-          <div class="card">
+          <div data-wow-delay="0.2s" class="card wow animate__animated animate__fadeInUp">
             <h1>Coffee 2</h1>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
-          <div class="card">
+          <div data-wow-delay="0.4s" class="card wow animate__animated animate__fadeInUp">
             <h1>Coffee 3</h1>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
@@ -112,10 +116,10 @@
     <section class="rate">
       <div class="container">
         <div class="rate-text">
-          <h2>The <span>Rate</span></h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque iure temporibus dolore, nesciunt velit odit.</p>
+          <h2 class="wow animate__animated animate__fadeInDown">The <span>Rate</span></h2>
+          <p data-wow-delay="0.2s" class="wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque iure temporibus dolore, nesciunt velit odit.</p>
         </div>
-        <div style="width:560px;height:800px;overflow:hidden;position:relative;box-shadow: 5px 5px 50px #797979;" class="map">
+        <div style="width:560px;height:800px;overflow:hidden;position:relative;box-shadow: 5px 5px 50px #797979;" class="map wow animate__animated animate__fadeIn">
           <iframe style="height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box;" src="https://yandex.ru/maps-reviews-widget/45653905188?comments"></iframe>
           <a href="https://yandex.kz/maps/org/discovery_coffee/45653905188/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Discovery Coffee на карте Астаны — Яндекс Карты</a>
         </div>
@@ -124,18 +128,18 @@
     <section class="contacts" id="contact">
       <div class="container">
         <div class="contacts-text">
-          <h2>Contact<span> Us</span></h2>
-          <p>
+          <h2 class="wow animate__animated animate__fadeInDown">Contact<span> Us</span></h2>
+          <p data-wow-delay="0.2s" class="wow animate__animated animate__fadeInDown">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum
             metus. Donec placerat.
           </p>
         </div>
         <div class="form">
           <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn-submit">Send</button>
+            <input data-wow-delay="0.2s" class="wow animate__animated animate__fadeInDown" type="text" placeholder="Your Name" required />
+            <input data-wow-delay="0.4s" class="wow animate__animated animate__fadeInDown" type="email" placeholder="Your Email" required />
+            <textarea data-wow-delay="0.6s" class="wow animate__animated animate__fadeInUp" placeholder="Your Message" required></textarea>
+            <button data-wow-delay="0.8s" class="wow animate__animated animate__fadeInDown btn-submit" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -162,7 +166,7 @@
           <div class="footer-links">
             <b>Follow Us</b>
             <a href="#">Facebook</a>
-            <a href="#">Instagram</a>ио
+            <a href="#">Instagram</a>
             <a href="#">Twitter</a>
           </div>
           <div class="footer-links">
@@ -175,5 +179,9 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

@@ -115,6 +115,8 @@ section {
 
 .about-us {
   height: 100vh;
+  margin: 10px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -466,9 +468,11 @@ iframe {
 
 @media (max-width: 470px) {
   .our-coffees {
-    margin-block: 200px;
+    margin-block: 600px;
   }
   .footer-right {
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
   .gallery-text {
